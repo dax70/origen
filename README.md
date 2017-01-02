@@ -72,6 +72,10 @@ require('./server.js');
 1. Install ESLint
 * Configure rules (Airbnb?)
 
+## Library Development
+
+### Use Lerma for to breakup packages
+
 ## Setting up en Editor
 
 ### Nuclide Setup
