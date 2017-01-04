@@ -54,8 +54,14 @@ For MacOS/Linux
   }
   ```
 2. Yarn add Flow-bin `> yarn add flow-bin`
-3. Add .flowconfig `> touch .flowconfig`
-
+3. Add .flowconfig `flow init` or `> touch .flowconfig`
+    The benefit with *flow init* is that it will stub out the *.flowconfig* sections:
+    ```sh
+    [ignore]
+    [include]
+    [libs]
+    [options]
+    ```
 ## Testing
 ### Adding Jest
 
