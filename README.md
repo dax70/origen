@@ -62,6 +62,13 @@ For MacOS/Linux
     [libs]
     [options]
     ```
+    The syntax to ignore is .\*/path/to/dir/.\*
+
+    Example:
+    ```
+    [ignore]
+    .*/node_modules/fbjs/.*
+    ```
 ## Testing
 ### Adding Jest
 
